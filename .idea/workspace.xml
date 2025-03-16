@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77767b1-172c-47fd-817d-758a9992aa20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelTestNGTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParametrizedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/all.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/Workload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculationUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/data/CustomArgumentsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/data/CustomCargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/different_distance.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/data/MyDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/data/MyDataProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -33,24 +31,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SafronovaOlga"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SafronovaOlga&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SafronovaOlga/Maven_Java_TestNG_Allure.git",
-    "accountId": "7f14f565-121e-4ac0-9bf6-44f0ee478b2a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SafronovaOlga/Maven_Java_TestNG_Allure.git&quot;,
+    &quot;accountId&quot;: &quot;7f14f565-121e-4ac0-9bf6-44f0ee478b2a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2uAV8cq9hA9OxmopyBQYlewQnUI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,54 +56,104 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CalculationUnitTest.executor": "Run",
+    "TestNG.CalculationUnitTest.testGetCostBig.executor": "Run",
+    "TestNG.CalculationUnitTest.testGetCostDistance.executor": "Run",
+    "TestNG.CalculationUnitTest.testGetCostDistanceNegative.executor": "Run",
+    "TestNG.CalculationUnitTest.testGetCostFragile.executor": "Run",
+    "TestNG.CalculationUnitTest.testGetCostFragileNegative.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "eu.ydp.idea.ts.spec.generator.settings.spec.template": "import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';\n\ndescribe('$ClassName$', () => {\n  let $ObjName$:$ClassName$;\n\n  beforeEach(() => {\n    $ObjName$ = new $ClassName$();\n  });\n\n  describe('', () => {\n    it('', () => {\n      // given\n\n      // when\n\n      // then\n    });\n  });\n});\n",
-    "git-widget-placeholder": "os/futch/allurereport1",
+    "git-widget-placeholder": "os/updadedPOMnewTests",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "show.migrate.to.gradle.popup": "false"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
-    ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="TestNG.CalculationUnitTest.testCalculation">
+    <configuration name="CalculationUnitTest.testCalculation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Java_TestNG_Allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculationUnitTest" />
+      <option name="METHOD_NAME" value="testCalculation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
+    <configuration name="CalculationUnitTest.testGetCostDistance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Java_TestNG_Allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculationUnitTest" />
+      <option name="METHOD_NAME" value="testGetCostDistance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <configuration name="CalculationUnitTest.testGetCostFragile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Java_TestNG_Allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculationUnitTest" />
+      <option name="METHOD_NAME" value="testGetCostFragile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculationUnitTest.testGetCostFragileNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Java_TestNG_Allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculationUnitTest" />
+      <option name="METHOD_NAME" value="testGetCostFragileNegative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculationUnitTest.testGetCostWithCriteria" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Java_TestNG_Allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculationUnitTest" />
+      <option name="METHOD_NAME" value="testGetCostWithCriteria" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CalculationUnitTest.testCalculation" />
+        <item itemvalue="TestNG.CalculationUnitTest.testGetCostWithCriteria" />
+        <item itemvalue="TestNG.CalculationUnitTest.testGetCostFragileNegative" />
+        <item itemvalue="TestNG.CalculationUnitTest.testGetCostFragile" />
+        <item itemvalue="TestNG.CalculationUnitTest.testGetCostDistance" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d77767b1-172c-47fd-817d-758a9992aa20" name="Changes" comment="" />
-      <created>1741692421924</created>
+      <created>1741694468006</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741692421924</updated>
+      <updated>1741694468006</updated>
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/safronova/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
 </project>
